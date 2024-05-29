@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 
 # link
-product_link = 'https://www.tokopedia.com/stationeryfo/pensil-mekanik-warna-pilot-color-eno-0-7mm-soft-blue'
+product_link = 'https://www.tokopedia.com/putragroup/resmi-iphone-11-64gb-128gb-garansi-indo-1-tahun-64-128-gb-64gb-black-promo-f27ca?extParam=cmp%3D1%26ivf%3Dfalse&src=topads'
 
 # open product link
 driver = webdriver.Chrome()
