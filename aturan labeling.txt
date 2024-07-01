@@ -1,0 +1,10 @@
+Aturan Labeling dataset
+
+1. Setiap review diasumsikan memiliki minimal satu aspek yang direview (memiliki sentimen) dan maksimal tiga aspek, yaitu pelayanan, barang, dan pengiriman.
+2. Yang termasuk dalam aspek pelayanan adalah keramahan penjual, kecepatan respon penjual, penanganan masalah oleh penjual. Yang termasuk dalam aspek barang adalah harga, kesesuaian barang dengan spesifikasi yang tertera, fungsionalitas, kenyamanan penggunaan, dll. Yang termasuk dalam pengiriman adalah kecepatan pengiriman, packaging barang, keadaan barang ketika sampai di tujuan, ketepatan tujuan pengiriman.
+3. Dalam suatu review bila terdapat aspek yang tidak direview maka aspek tersebut tidak akan memiliki sentimen.
+4. Sentimen dibagi menjadi tiga yaitu 0 (negatif), 1 (netral), 2 (positif).
+5. Review yang hanya mengandung emoji dihapus.
+6. Review yang hanya berisi pujian/kritik tanpa aspek apapun seperti "Bagus", "OK", "mantap", "Kecewa", dll diasumsikan bahwa pujian/kritik tersebut diberikan untuk setiap aspek.
+7. Review seperti "Biar bintang yang berbicara" dianggap netral (karena model tidak menerima inputan bintang/rating).
+8. Jika salah satu aspek dalam review mendapatkan pujian dan juga kritik maka sentiment untuk aspek tersebut netral.
